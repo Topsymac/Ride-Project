@@ -155,3 +155,16 @@ body {
     background-color: rgb(32, 73, 105);
     padding-bottom: 18px;
 }
+
+@media screen and (max-width:900px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image {
+        display: none;
+    }
+    .grid-container {
+        display: none;
+    }
+}

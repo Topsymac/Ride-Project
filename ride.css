@@ -56,13 +56,14 @@ body {
 
 .hero-page-form {
     margin: 20px;
-    border: 3px solid;
+    border: 3px solid rgb(32, 73, 105);
     border-radius: 20px;
     padding: 50px 50px;
 }
 
 .hero-form {
-    border: 3px solid;
+    border: 3px solid rgb(32, 73, 105);
+    border-radius: 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -135,4 +136,24 @@ body {
 .footer-end {
     background-color: rgb(32, 73, 105);
     padding-bottom: 18px;
+}
+
+@media screen and (max-width:900px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .ride-text {
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero-page-form {
+        width: 100%;
+    }
+    .hero-image {
+        display: none;
+    }
+    .grid-container {
+        display: none;
+    }
 }

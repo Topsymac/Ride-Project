@@ -63,7 +63,7 @@
         cursor: pointer;
         opacity: 0.8;
         position: fixed;
-        bottom: 450px;
+        bottom: 500px;
         right: 28px;
         width: 280px;
     }
@@ -183,4 +183,17 @@
     .footer-end {
         background-color: rgb(32, 73, 105);
         padding-bottom: 18px;
+    }
+    
+    @media screen and (max-width:900px) {
+        .navbar {
+            display: flex;
+            flex-direction: column;
+        }
+        .hero-image {
+            display: none;
+        }
+        .grid-container {
+            display: none;
+        }
     }
